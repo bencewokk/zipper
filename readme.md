@@ -22,3 +22,16 @@ Run the provided batch script (`zipper.bat`) to launch the utility:
 
 ```bat
 [zipper.bat](http://_vscodecontentref_/0) --source "C:\Your\Directory" --output "C:\Output\Directory"
+```
+
+### Add Zipper to Your PATH
+
+If you want to run Zipper from any CMD window without providing full paths, you can use the provided batch script:
+
+1. Open a CMD window as a normal user.
+2. Run the following command:
+   ```bat
+   c:\zipper\add_to_path.bat
+   ```
+3. Close and reopen CMD for the changes to apply.
+4. Now you can run `zipper` from any directory.
